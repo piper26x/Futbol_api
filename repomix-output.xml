@@ -1,0 +1,318 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+controllers/
+  players.js
+  teams.js
+models/
+  players.js
+  teams.js
+routes/
+  players.js
+  teams.js
+app.js
+index.js
+package.json
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="controllers/players.js">
+let Player = require('../models/players')
+
+const controller = {
+  getPlayers: function (req, res) {
+    Player.find({}).exec()
+      .then(playersList => {
+        if (!playersList) return res.status(404).send({message: "No data found"})
+        return res.status(200).json(playersList)
+      })
+      .catch(err => res.status(500).send({message: `Error: ${err}`}))
+  },
+  getPlayer: function (req, res) {
+    let playerId = req.params.id
+    if (playerId == null) return res.status(404).send({message: "player not found"})
+
+    Player.findById(playerId).exec()
+      .then(data => {
+        if (!data) return res.status(404).send({message: "player not found"})
+        return res.status(200).json(data)
+      })
+      .catch(err => res.status(500).send({message: `Internal error-> ${err}`}))
+  },
+  savePlayer: function (req, res) {
+    let players = new Player()
+    const {name, posicion,dorsal , equipo} = req.body
+    if (name && posicion) {
+      players.name = name
+      players.posicion = posicion
+      players.dorsal = dorsal
+      players.equipo = equipo
+      
+      players.save()
+        .then(storedPlayer => {
+          storedPlayer
+            ? res.status(200).json({player: storedPlayer})
+            : res.status(404).send({message: "Error saving the document"})
+        })
+        .catch(error => res.status(500).send({message: "Error while saving the document"}))
+    } else {
+      return res.status(400).send({message: "Data is not right"})
+    }
+  },
+  updatePlayer: function (req, res) {
+    let playerId = req.params.id
+    let update = req.body
+
+    Player.findByIdAndUpdate(playerId, update, {returnDocument: 'after'})
+      .then(updatedPlayer => {
+        if(!updatedPlayer) return res.status(404).send({message: "The document does not exist"})
+        return res.status(200).send({player: updatedPlayer})
+      })
+      .catch(error => res.status(500).send({message: `Error while updating ${error}`}))
+  },
+  deletePlayer: function (req, res) {
+    let playerId = req.params.id
+
+    Player.findByIdAndDelete(playerId)
+      .then(removedPlayer => {
+        if (!removedPlayer) return res.status(404).send({message: "The player does not exist"})
+        return res.status(200).send({player: removedPlayer})
+      })
+      .catch(err => res.status(500).send({message: "Error while deleting"}))
+  }
+}
+
+module.exports = controller
+</file>
+
+<file path="controllers/teams.js">
+let Team = require('../models/teams');
+
+
+const controller = {
+  getTeams: function (req, res) {
+    Team.find({}).exec()
+      .then(teamsList => {
+        if (!teamsList) return res.status(404).send({message: "No data found"})
+        return res.status(200).json(teamsList)
+      })
+      .catch(err => res.status(500).send({message: `Error: ${err}`}))
+  },
+  getTeam: function (req, res) {
+    let teamId = req.params.id
+    if (teamId == null) return res.status(404).send({message: "team not found"})
+
+    Team.findById(teamId).exec()
+      .then(data => {
+        if (!data) return res.status(404).send({message: "team not found"})
+        return res.status(200).json(data)
+      })
+      .catch(err => res.status(500).send({message: `Internal error-> ${err}`}))
+  },
+  saveTeam: function (req, res) {
+    let teams = new Team()
+    const {name, year_foundation,stadium , lema} = req.body
+    if (name && year_foundation) {
+      teams.name = name
+      teams.year_foundation = year_foundation
+      teams.stadium = stadium
+      teams.lema = lema
+      
+      teams.save()
+        .then(storedTeam => {
+          storedTeam
+            ? res.status(200).json({team: storedTeam})
+            : res.status(404).send({message: "Error saving the document"})
+        })
+        .catch(error => res.status(500).send({message: "Error while saving the document"}))
+    } else {
+      return res.status(400).send({message: "Data is not right"})
+    }
+  },
+  updateTeam: function (req, res) {
+    let teamId = req.params.id
+    let update = req.body
+
+    Team.findByIdAndUpdate(teamId, update, {returnDocument: 'after'})
+      .then(updatedTeam => {
+        if(!updatedTeam) return res.status(404).send({message: "The document does not exist"})
+        return res.status(200).send({team: updatedTeam})
+      })
+      .catch(error => res.status(500).send({message: `Error while updating ${error}`}))
+  },
+  deleteTeam: function (req, res) {
+    let teamId = req.params.id
+
+    Team.findByIdAndDelete(teamId)
+      .then(removedTeam => {
+        if (!removedTeam) return res.status(404).send({message: "The team does not exist"})
+        return res.status(200).send({team: removedTeam})
+      })
+      .catch(err => res.status(500).send({message: "Error while deleting"}))
+  }
+}
+
+module.exports = controller
+</file>
+
+<file path="models/players.js">
+let mongoose = require('mongoose')
+let Schema = mongoose.Schema
+
+let PlayerSchema = Schema ({
+  name: String,
+  posicion: String,
+  dorsal : Number,
+  equipo : String,
+
+})
+
+module.exports = mongoose.model('Players',PlayerSchema, 'players')
+</file>
+
+<file path="models/teams.js">
+let mongoose = require('mongoose')
+let Schema = mongoose.Schema
+
+let TeamsSchema = Schema ({
+  name: String,
+  year_foundation: Number,
+  stadium : String,
+  lema : String,
+
+})
+
+module.exports = mongoose.model('Teams',TeamsSchema, 'teams')
+</file>
+
+<file path="routes/players.js">
+const { Router } = require('express')
+const playersController = require('../controllers/players')
+
+const router = Router()
+
+router.get('/', playersController.getPlayer)
+router.get('/:id', playersController.getPlayers)
+router.post('/save-player', playersController.savePlayer)
+router.put('/edit-player/:id', playersController.updatePlayer)
+router.delete('/delete-player/:id', playersController.deletePlayer)
+
+module.exports = router
+</file>
+
+<file path="routes/teams.js">
+const { Router } = require('express')
+const teamsController = require('../controllers/teams')
+
+const router = Router()
+
+router.get('/', teamsController.getTeams)
+router.get('/:id', teamsController.getTeam)
+router.post('/save-team', teamsController.saveTeam)
+router.put('/edit-team/:id', teamsController.updateTeam)
+router.delete('/delete-team/:id', teamsController.deleteTeam)
+
+module.exports = router
+</file>
+
+<file path="app.js">
+const express = require('express')
+const player_routes = require('./routes/players')
+const teams_routes = require('./routes/teams')
+
+
+const app = express()
+
+// settings
+app.set('port', process.env.PORT || 3000)
+
+// middleware
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+
+// routes
+app.use('/api/players', player_routes)
+app.use('/api/teams', teams_routes)
+
+module.exports = app
+</file>
+
+<file path="index.js">
+let mongoose = require('mongoose')
+const app = require('./app')
+
+mongoose.Promise = global.Promise
+mongoose.connect('mongodb://127.0.0.1:27017/Futbol')
+  .then(() => {
+    console.log('Database connected successfully')
+
+    app.listen(app.get('port'), () => {
+      console.log(`Server running at http://localhost:${app.get('port')}`)
+    })
+  })
+  .catch(err => console.error(err))
+</file>
+
+<file path="package.json">
+{
+  "name": "futbol_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "connect-multiparty": "^2.2.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2",
+    "nodemon": "^3.1.14"
+  }
+}
+</file>
+
+</files>
