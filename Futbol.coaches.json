@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ede"
+  },
+  "name": "Carlo Ancelotti",
+  "nationality": "Italy",
+  "age": 65,
+  "team": "Real Madrid",
+  "titles": 30
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58edf"
+  },
+  "name": "Pep Guardiola",
+  "nationality": "Spain",
+  "age": 53,
+  "team": "Manchester City",
+  "titles": 38
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee0"
+  },
+  "name": "Jürgen Klopp",
+  "nationality": "Germany",
+  "age": 57,
+  "team": "Free Agent",
+  "titles": 15
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee1"
+  },
+  "name": "Diego Simeone",
+  "nationality": "Argentina",
+  "age": 54,
+  "team": "Atlético de Madrid",
+  "titles": 10
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee2"
+  },
+  "name": "Xavi Hernández",
+  "nationality": "Spain",
+  "age": 44,
+  "team": "FC Barcelona",
+  "titles": 4
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee3"
+  },
+  "name": "Mauricio Pochettino",
+  "nationality": "Argentina",
+  "age": 52,
+  "team": "USMNT",
+  "titles": 3
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee4"
+  },
+  "name": "Zinedine Zidane",
+  "nationality": "France",
+  "age": 52,
+  "team": "Free Agent",
+  "titles": 11
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee5"
+  },
+  "name": "Marcelo Gallardo",
+  "nationality": "Argentina",
+  "age": 48,
+  "team": "River Plate",
+  "titles": 14
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee6"
+  },
+  "name": "José Mourinho",
+  "nationality": "Portugal",
+  "age": 61,
+  "team": "Fenerbahçe",
+  "titles": 26
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee7"
+  },
+  "name": "Antonio Conte",
+  "nationality": "Italy",
+  "age": 55,
+  "team": "Napoli",
+  "titles": 8
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee8"
+  },
+  "name": "Luis Enrique",
+  "nationality": "Spain",
+  "age": 54,
+  "team": "PSG",
+  "titles": 12
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ee9"
+  },
+  "name": "Thomas Tuchel",
+  "nationality": "Germany",
+  "age": 51,
+  "team": "England National Team",
+  "titles": 9
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58eea"
+  },
+  "name": "Simone Inzaghi",
+  "nationality": "Italy",
+  "age": 48,
+  "team": "Inter Milan",
+  "titles": 7
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58eeb"
+  },
+  "name": "Erik ten Hag",
+  "nationality": "Netherlands",
+  "age": 54,
+  "team": "Manchester United",
+  "titles": 6
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58eec"
+  },
+  "name": "Mikel Arteta",
+  "nationality": "Spain",
+  "age": 42,
+  "team": "Arsenal",
+  "titles": 3
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58eed"
+  },
+  "name": "Unai Emery",
+  "nationality": "Spain",
+  "age": 53,
+  "team": "Aston Villa",
+  "titles": 11
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58eee"
+  },
+  "name": "Ange Postecoglou",
+  "nationality": "Australia",
+  "age": 59,
+  "team": "Tottenham",
+  "titles": 5
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58eef"
+  },
+  "name": "Tite",
+  "nationality": "Brazil",
+  "age": 63,
+  "team": "Flamengo",
+  "titles": 10
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ef0"
+  },
+  "name": "Abel Ferreira",
+  "nationality": "Portugal",
+  "age": 45,
+  "team": "Palmeiras",
+  "titles": 9
+},
+{
+  "_id": {
+    "$oid": "6abeab417dbdcea637b58ef1"
+  },
+  "name": "Renato Gaúcho",
+  "nationality": "Brazil",
+  "age": 62,
+  "team": "Grêmio",
+  "titles": 7
+}]

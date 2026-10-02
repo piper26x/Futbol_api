@@ -1,0 +1,340 @@
+[{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f2e"
+  },
+  "name": "Lionel Messi",
+  "posicion": "Delantero",
+  "dorsal": 10,
+  "equipo": "Inter Miami",
+  "nationality": "Argentina",
+  "age": 37,
+  "height": 170,
+  "weight": 72,
+  "goals": 25,
+  "assists": 15,
+  "matches_played": 30,
+  "photo_url": "https://example.com/messi.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f2f"
+  },
+  "name": "Cristiano Ronaldo",
+  "posicion": "Delantero",
+  "dorsal": 7,
+  "equipo": "Al Nassr",
+  "nationality": "Portugal",
+  "age": 39,
+  "height": 187,
+  "weight": 83,
+  "goals": 35,
+  "assists": 8,
+  "matches_played": 32,
+  "photo_url": "https://example.com/ronaldo.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f30"
+  },
+  "name": "Kylian Mbappé",
+  "posicion": "Delantero",
+  "dorsal": 9,
+  "equipo": "Real Madrid",
+  "nationality": "France",
+  "age": 25,
+  "height": 178,
+  "weight": 73,
+  "goals": 28,
+  "assists": 10,
+  "matches_played": 29,
+  "photo_url": "https://example.com/mbappe.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f31"
+  },
+  "name": "Erling Haaland",
+  "posicion": "Delantero",
+  "dorsal": 9,
+  "equipo": "Manchester City",
+  "nationality": "Norway",
+  "age": 24,
+  "height": 194,
+  "weight": 88,
+  "goals": 30,
+  "assists": 5,
+  "matches_played": 28,
+  "photo_url": "https://example.com/haaland.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f32"
+  },
+  "name": "Vinícius Jr",
+  "posicion": "Extremo",
+  "dorsal": 7,
+  "equipo": "Real Madrid",
+  "nationality": "Brazil",
+  "age": 24,
+  "height": 176,
+  "weight": 73,
+  "goals": 20,
+  "assists": 12,
+  "matches_played": 27,
+  "photo_url": "https://example.com/vinicius.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f33"
+  },
+  "name": "Jude Bellingham",
+  "posicion": "Mediocampista",
+  "dorsal": 5,
+  "equipo": "Real Madrid",
+  "nationality": "England",
+  "age": 21,
+  "height": 186,
+  "weight": 75,
+  "goals": 18,
+  "assists": 9,
+  "matches_played": 26,
+  "photo_url": "https://example.com/bellingham.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f34"
+  },
+  "name": "Mohamed Salah",
+  "posicion": "Extremo",
+  "dorsal": 11,
+  "equipo": "Liverpool",
+  "nationality": "Egypt",
+  "age": 32,
+  "height": 175,
+  "weight": 71,
+  "goals": 22,
+  "assists": 14,
+  "matches_played": 30,
+  "photo_url": "https://example.com/salah.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f35"
+  },
+  "name": "Harry Kane",
+  "posicion": "Delantero",
+  "dorsal": 9,
+  "equipo": "Bayern Munich",
+  "nationality": "England",
+  "age": 31,
+  "height": 188,
+  "weight": 86,
+  "goals": 32,
+  "assists": 7,
+  "matches_played": 31,
+  "photo_url": "https://example.com/kane.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f36"
+  },
+  "name": "Kevin De Bruyne",
+  "posicion": "Mediocampista",
+  "dorsal": 17,
+  "equipo": "Manchester City",
+  "nationality": "Belgium",
+  "age": 33,
+  "height": 181,
+  "weight": 70,
+  "goals": 8,
+  "assists": 20,
+  "matches_played": 25,
+  "photo_url": "https://example.com/debruyne.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f37"
+  },
+  "name": "Lautaro Martínez",
+  "posicion": "Delantero",
+  "dorsal": 10,
+  "equipo": "Inter Milan",
+  "nationality": "Argentina",
+  "age": 27,
+  "height": 174,
+  "weight": 72,
+  "goals": 24,
+  "assists": 6,
+  "matches_played": 29,
+  "photo_url": "https://example.com/lautaro.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f38"
+  },
+  "name": "Robert Lewandowski",
+  "posicion": "Delantero",
+  "dorsal": 9,
+  "equipo": "FC Barcelona",
+  "nationality": "Poland",
+  "age": 36,
+  "height": 185,
+  "weight": 81,
+  "goals": 26,
+  "assists": 5,
+  "matches_played": 30,
+  "photo_url": "https://example.com/lewandowski.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f39"
+  },
+  "name": "Karim Benzema",
+  "posicion": "Delantero",
+  "dorsal": 9,
+  "equipo": "Al Ittihad",
+  "nationality": "France",
+  "age": 36,
+  "height": 185,
+  "weight": 81,
+  "goals": 20,
+  "assists": 7,
+  "matches_played": 28,
+  "photo_url": "https://example.com/benzema.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f3a"
+  },
+  "name": "Neymar Jr",
+  "posicion": "Extremo",
+  "dorsal": 10,
+  "equipo": "Al Hilal",
+  "nationality": "Brazil",
+  "age": 32,
+  "height": 175,
+  "weight": 68,
+  "goals": 12,
+  "assists": 9,
+  "matches_played": 18,
+  "photo_url": "https://example.com/neymar.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f3b"
+  },
+  "name": "Phil Foden",
+  "posicion": "Extremo",
+  "dorsal": 47,
+  "equipo": "Manchester City",
+  "nationality": "England",
+  "age": 24,
+  "height": 171,
+  "weight": 70,
+  "goals": 19,
+  "assists": 11,
+  "matches_played": 30,
+  "photo_url": "https://example.com/foden.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f3c"
+  },
+  "name": "Bukayo Saka",
+  "posicion": "Extremo",
+  "dorsal": 7,
+  "equipo": "Arsenal",
+  "nationality": "England",
+  "age": 23,
+  "height": 178,
+  "weight": 72,
+  "goals": 16,
+  "assists": 13,
+  "matches_played": 29,
+  "photo_url": "https://example.com/saka.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f3d"
+  },
+  "name": "Rodri",
+  "posicion": "Mediocampista",
+  "dorsal": 16,
+  "equipo": "Manchester City",
+  "nationality": "Spain",
+  "age": 28,
+  "height": 191,
+  "weight": 82,
+  "goals": 6,
+  "assists": 8,
+  "matches_played": 28,
+  "photo_url": "https://example.com/rodri.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f3e"
+  },
+  "name": "Antoine Griezmann",
+  "posicion": "Delantero",
+  "dorsal": 7,
+  "equipo": "Atlético de Madrid",
+  "nationality": "France",
+  "age": 33,
+  "height": 176,
+  "weight": 73,
+  "goals": 21,
+  "assists": 10,
+  "matches_played": 30,
+  "photo_url": "https://example.com/griezmann.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f3f"
+  },
+  "name": "Julian Álvarez",
+  "posicion": "Delantero",
+  "dorsal": 19,
+  "equipo": "Atlético de Madrid",
+  "nationality": "Argentina",
+  "age": 24,
+  "height": 170,
+  "weight": 71,
+  "goals": 17,
+  "assists": 6,
+  "matches_played": 28,
+  "photo_url": "https://example.com/alvarez.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f40"
+  },
+  "name": "Rafael Leão",
+  "posicion": "Extremo",
+  "dorsal": 10,
+  "equipo": "AC Milan",
+  "nationality": "Portugal",
+  "age": 25,
+  "height": 188,
+  "weight": 81,
+  "goals": 14,
+  "assists": 9,
+  "matches_played": 27,
+  "photo_url": "https://example.com/leao.jpg"
+},
+{
+  "_id": {
+    "$oid": "6abeac4d7dbdcea637b58f41"
+  },
+  "name": "Victor Osimhen",
+  "posicion": "Delantero",
+  "dorsal": 9,
+  "equipo": "Napoli",
+  "nationality": "Nigeria",
+  "age": 25,
+  "height": 185,
+  "weight": 78,
+  "goals": 23,
+  "assists": 4,
+  "matches_played": 28,
+  "photo_url": "https://example.com/osimhen.jpg"
+}]

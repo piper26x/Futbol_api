@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f1a"
+  },
+  "name": "Real Madrid",
+  "year_foundation": 1902,
+  "stadium": "Santiago Bernabéu",
+  "lema": "¡Hala Madrid!",
+  "country": "Spain",
+  "city": "Madrid",
+  "coach": "Carlo Ancelotti",
+  "titles": 36,
+  "colors": "Blanco",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f1b"
+  },
+  "name": "FC Barcelona",
+  "year_foundation": 1899,
+  "stadium": "Camp Nou",
+  "lema": "Més que un club",
+  "country": "Spain",
+  "city": "Barcelona",
+  "coach": "Xavi Hernández",
+  "titles": 27,
+  "colors": "Azulgrana",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f1c"
+  },
+  "name": "Manchester City",
+  "year_foundation": 1880,
+  "stadium": "Etihad Stadium",
+  "lema": "Superbia in Proelio",
+  "country": "England",
+  "city": "Manchester",
+  "coach": "Pep Guardiola",
+  "titles": 10,
+  "colors": "Celeste",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f1d"
+  },
+  "name": "Bayern Munich",
+  "year_foundation": 1900,
+  "stadium": "Allianz Arena",
+  "lema": "Mia san Mia",
+  "country": "Germany",
+  "city": "Munich",
+  "coach": "Thomas Tuchel",
+  "titles": 33,
+  "colors": "Rojo",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f1e"
+  },
+  "name": "River Plate",
+  "year_foundation": 1901,
+  "stadium": "El Monumental",
+  "lema": "El Más Grande",
+  "country": "Argentina",
+  "city": "Buenos Aires",
+  "coach": "Marcelo Gallardo",
+  "titles": 38,
+  "colors": "Blanco y Rojo",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Club_Atl%C3%A9tico_River_Plate_logo.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f1f"
+  },
+  "name": "Flamengo",
+  "year_foundation": 1895,
+  "stadium": "Maracaná",
+  "lema": "Uma vez Flamengo, sempre Flamengo",
+  "country": "Brazil",
+  "city": "Rio de Janeiro",
+  "coach": "Tite",
+  "titles": 8,
+  "colors": "Rojo y Negro",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f20"
+  },
+  "name": "Inter Milan",
+  "year_foundation": 1908,
+  "stadium": "San Siro",
+  "lema": "Brothers of the World",
+  "country": "Italy",
+  "city": "Milan",
+  "coach": "Simone Inzaghi",
+  "titles": 20,
+  "colors": "Azul y Negro",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f21"
+  },
+  "name": "PSG",
+  "year_foundation": 1970,
+  "stadium": "Parc des Princes",
+  "lema": "Ici c'est Paris",
+  "country": "France",
+  "city": "Paris",
+  "coach": "Luis Enrique",
+  "titles": 12,
+  "colors": "Azul, Rojo y Blanco",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f22"
+  },
+  "name": "Liverpool",
+  "year_foundation": 1892,
+  "stadium": "Anfield",
+  "lema": "You'll Never Walk Alone",
+  "country": "England",
+  "city": "Liverpool",
+  "coach": "Arne Slot",
+  "titles": 19,
+  "colors": "Rojo",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f23"
+  },
+  "name": "Manchester United",
+  "year_foundation": 1878,
+  "stadium": "Old Trafford",
+  "lema": "Glory Glory Man United",
+  "country": "England",
+  "city": "Manchester",
+  "coach": "Erik ten Hag",
+  "titles": 20,
+  "colors": "Rojo",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f24"
+  },
+  "name": "Arsenal",
+  "year_foundation": 1886,
+  "stadium": "Emirates Stadium",
+  "lema": "Victoria Concordia Crescit",
+  "country": "England",
+  "city": "London",
+  "coach": "Mikel Arteta",
+  "titles": 13,
+  "colors": "Rojo y Blanco",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f25"
+  },
+  "name": "Tottenham",
+  "year_foundation": 1882,
+  "stadium": "Tottenham Hotspur Stadium",
+  "lema": "Audere est Facere",
+  "country": "England",
+  "city": "London",
+  "coach": "Ange Postecoglou",
+  "titles": 2,
+  "colors": "Blanco",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f26"
+  },
+  "name": "Atlético de Madrid",
+  "year_foundation": 1903,
+  "stadium": "Metropolitano",
+  "lema": "Coraje y corazón",
+  "country": "Spain",
+  "city": "Madrid",
+  "coach": "Diego Simeone",
+  "titles": 11,
+  "colors": "Rojo y Blanco",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f27"
+  },
+  "name": "Juventus",
+  "year_foundation": 1897,
+  "stadium": "Allianz Stadium",
+  "lema": "Fino alla fine",
+  "country": "Italy",
+  "city": "Turin",
+  "coach": "Thiago Motta",
+  "titles": 36,
+  "colors": "Blanco y Negro",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Juventus_FC_2017_icon_%28black%29.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f28"
+  },
+  "name": "AC Milan",
+  "year_foundation": 1899,
+  "stadium": "San Siro",
+  "lema": "Sempre Milan",
+  "country": "Italy",
+  "city": "Milan",
+  "coach": "Paulo Fonseca",
+  "titles": 19,
+  "colors": "Rojo y Negro",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f29"
+  },
+  "name": "Napoli",
+  "year_foundation": 1926,
+  "stadium": "Diego Armando Maradona",
+  "lema": "Un solo popolo, una sola fede",
+  "country": "Italy",
+  "city": "Naples",
+  "coach": "Antonio Conte",
+  "titles": 3,
+  "colors": "Celeste",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Neapel.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f2a"
+  },
+  "name": "Borussia Dortmund",
+  "year_foundation": 1909,
+  "stadium": "Signal Iduna Park",
+  "lema": "Echte Liebe",
+  "country": "Germany",
+  "city": "Dortmund",
+  "coach": "Nuri Sahin",
+  "titles": 8,
+  "colors": "Amarillo y Negro",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f2b"
+  },
+  "name": "Bayer Leverkusen",
+  "year_foundation": 1904,
+  "stadium": "BayArena",
+  "lema": "Werkself",
+  "country": "Germany",
+  "city": "Leverkusen",
+  "coach": "Xabi Alonso",
+  "titles": 1,
+  "colors": "Rojo y Negro",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f2c"
+  },
+  "name": "Benfica",
+  "year_foundation": 1904,
+  "stadium": "Estadio da Luz",
+  "lema": "E pluribus unum",
+  "country": "Portugal",
+  "city": "Lisbon",
+  "coach": "Roger Schmidt",
+  "titles": 38,
+  "colors": "Rojo",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/en/a/a2/SL_Benfica_logo.svg"
+},
+{
+  "_id": {
+    "$oid": "6abeaba27dbdcea637b58f2d"
+  },
+  "name": "Boca Juniors",
+  "year_foundation": 1905,
+  "stadium": "La Bombonera",
+  "lema": "La mitad más uno",
+  "country": "Argentina",
+  "city": "Buenos Aires",
+  "coach": "Diego Martínez",
+  "titles": 74,
+  "colors": "Azul y Oro",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Boca_Juniors_logo18.svg"
+}]

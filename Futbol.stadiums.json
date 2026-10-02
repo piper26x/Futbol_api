@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58eca"
+  },
+  "name": "Santiago Bernabéu",
+  "city": "Madrid",
+  "capacity": 81044,
+  "year_built": 1947,
+  "team": "Real Madrid"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ecb"
+  },
+  "name": "Camp Nou",
+  "city": "Barcelona",
+  "capacity": 99354,
+  "year_built": 1957,
+  "team": "FC Barcelona"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ecc"
+  },
+  "name": "Wembley Stadium",
+  "city": "London",
+  "capacity": 90000,
+  "year_built": 2007,
+  "team": "England National Team"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ecd"
+  },
+  "name": "Allianz Arena",
+  "city": "Munich",
+  "capacity": 75000,
+  "year_built": 2005,
+  "team": "Bayern Munich"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ece"
+  },
+  "name": "El Monumental",
+  "city": "Buenos Aires",
+  "capacity": 70074,
+  "year_built": 1938,
+  "team": "River Plate"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ecf"
+  },
+  "name": "MetLife Stadium",
+  "city": "New Jersey",
+  "capacity": 82500,
+  "year_built": 2010,
+  "team": "New York Giants"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed0"
+  },
+  "name": "Maracaná",
+  "city": "Rio de Janeiro",
+  "capacity": 78838,
+  "year_built": 1950,
+  "team": "Flamengo"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed1"
+  },
+  "name": "Signal Iduna Park",
+  "city": "Dortmund",
+  "capacity": 81360,
+  "year_built": 1974,
+  "team": "Borussia Dortmund"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed2"
+  },
+  "name": "San Siro",
+  "city": "Milan",
+  "capacity": 75923,
+  "year_built": 1926,
+  "team": "Inter Milan"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed3"
+  },
+  "name": "Parc des Princes",
+  "city": "Paris",
+  "capacity": 47929,
+  "year_built": 1972,
+  "team": "PSG"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed4"
+  },
+  "name": "Etihad Stadium",
+  "city": "Manchester",
+  "capacity": 53400,
+  "year_built": 2002,
+  "team": "Manchester City"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed5"
+  },
+  "name": "Anfield",
+  "city": "Liverpool",
+  "capacity": 61276,
+  "year_built": 1884,
+  "team": "Liverpool"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed6"
+  },
+  "name": "Old Trafford",
+  "city": "Manchester",
+  "capacity": 74310,
+  "year_built": 1910,
+  "team": "Manchester United"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed7"
+  },
+  "name": "Tottenham Hotspur Stadium",
+  "city": "London",
+  "capacity": 62850,
+  "year_built": 2019,
+  "team": "Tottenham"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed8"
+  },
+  "name": "Emirates Stadium",
+  "city": "London",
+  "capacity": 60704,
+  "year_built": 2006,
+  "team": "Arsenal"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58ed9"
+  },
+  "name": "Estadio Azteca",
+  "city": "Mexico City",
+  "capacity": 87523,
+  "year_built": 1966,
+  "team": "Club América"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58eda"
+  },
+  "name": "La Bombonera",
+  "city": "Buenos Aires",
+  "capacity": 54000,
+  "year_built": 1940,
+  "team": "Boca Juniors"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58edb"
+  },
+  "name": "Allianz Stadium",
+  "city": "Turin",
+  "capacity": 41507,
+  "year_built": 2011,
+  "team": "Juventus"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58edc"
+  },
+  "name": "Mestalla",
+  "city": "Valencia",
+  "capacity": 49430,
+  "year_built": 1923,
+  "team": "Valencia CF"
+},
+{
+  "_id": {
+    "$oid": "6abeab357dbdcea637b58edd"
+  },
+  "name": "Estadio da Luz",
+  "city": "Lisbon",
+  "capacity": 64642,
+  "year_built": 2003,
+  "team": "Benfica"
+}]

@@ -1,0 +1,316 @@
+[{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58ef2"
+  },
+  "name": "UEFA Champions League",
+  "year": 2024,
+  "country": "Europe",
+  "teams": [
+    "Real Madrid",
+    "Borussia Dortmund",
+    "Bayern Munich",
+    "Manchester City",
+    "PSG",
+    "Arsenal"
+  ],
+  "champion": "Real Madrid"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58ef3"
+  },
+  "name": "Copa América",
+  "year": 2024,
+  "country": "USA",
+  "teams": [
+    "Argentina",
+    "Colombia",
+    "Uruguay",
+    "Brazil",
+    "USA",
+    "Mexico"
+  ],
+  "champion": "Argentina"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58ef4"
+  },
+  "name": "Eurocopa",
+  "year": 2024,
+  "country": "Germany",
+  "teams": [
+    "Spain",
+    "England",
+    "France",
+    "Germany",
+    "Italy",
+    "Portugal"
+  ],
+  "champion": "Spain"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58ef5"
+  },
+  "name": "Premier League",
+  "year": 2024,
+  "country": "England",
+  "teams": [
+    "Manchester City",
+    "Arsenal",
+    "Liverpool",
+    "Aston Villa",
+    "Tottenham"
+  ],
+  "champion": "Manchester City"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58ef6"
+  },
+  "name": "La Liga",
+  "year": 2024,
+  "country": "Spain",
+  "teams": [
+    "Real Madrid",
+    "FC Barcelona",
+    "Girona",
+    "Atlético de Madrid",
+    "Athletic Bilbao"
+  ],
+  "champion": "Real Madrid"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58ef7"
+  },
+  "name": "Copa Libertadores",
+  "year": 2024,
+  "country": "South America",
+  "teams": [
+    "Botafogo",
+    "Atlético Mineiro",
+    "River Plate",
+    "Peñarol",
+    "Flamengo"
+  ],
+  "champion": "Botafogo"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58ef8"
+  },
+  "name": "Mundial de Clubes",
+  "year": 2025,
+  "country": "USA",
+  "teams": [
+    "Real Madrid",
+    "Manchester City",
+    "Chelsea",
+    "Bayern Munich",
+    "PSG",
+    "Flamengo"
+  ],
+  "champion": "Por definir"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58ef9"
+  },
+  "name": "Bundesliga",
+  "year": 2024,
+  "country": "Germany",
+  "teams": [
+    "Bayern Munich",
+    "Bayer Leverkusen",
+    "Stuttgart",
+    "RB Leipzig",
+    "Dortmund"
+  ],
+  "champion": "Bayer Leverkusen"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58efa"
+  },
+  "name": "Serie A",
+  "year": 2024,
+  "country": "Italy",
+  "teams": [
+    "Inter Milan",
+    "AC Milan",
+    "Juventus",
+    "Atalanta",
+    "Roma"
+  ],
+  "champion": "Inter Milan"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58efb"
+  },
+  "name": "Ligue 1",
+  "year": 2024,
+  "country": "France",
+  "teams": [
+    "PSG",
+    "Monaco",
+    "Brest",
+    "Lille",
+    "Nice"
+  ],
+  "champion": "PSG"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58efc"
+  },
+  "name": "Brasileirão",
+  "year": 2024,
+  "country": "Brazil",
+  "teams": [
+    "Botafogo",
+    "Palmeiras",
+    "Flamengo",
+    "Fortaleza",
+    "Internacional"
+  ],
+  "champion": "Botafogo"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58efd"
+  },
+  "name": "Liga MX",
+  "year": 2024,
+  "country": "Mexico",
+  "teams": [
+    "Club América",
+    "Cruz Azul",
+    "Toluca",
+    "Tigres",
+    "Monterrey"
+  ],
+  "champion": "Club América"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58efe"
+  },
+  "name": "Eredivisie",
+  "year": 2024,
+  "country": "Netherlands",
+  "teams": [
+    "PSV",
+    "Feyenoord",
+    "Twente",
+    "AZ Alkmaar",
+    "Ajax"
+  ],
+  "champion": "PSV"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58eff"
+  },
+  "name": "Primeira Liga",
+  "year": 2024,
+  "country": "Portugal",
+  "teams": [
+    "Sporting CP",
+    "Benfica",
+    "Porto",
+    "Braga",
+    "Vitória"
+  ],
+  "champion": "Sporting CP"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58f00"
+  },
+  "name": "MLS Cup",
+  "year": 2024,
+  "country": "USA",
+  "teams": [
+    "LA Galaxy",
+    "LAFC",
+    "Inter Miami",
+    "Columbus Crew",
+    "Seattle Sounders"
+  ],
+  "champion": "LA Galaxy"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58f01"
+  },
+  "name": "Copa Sudamericana",
+  "year": 2024,
+  "country": "South America",
+  "teams": [
+    "Racing",
+    "Cruzeiro",
+    "Corinthians",
+    "Lanús",
+    "Independiente"
+  ],
+  "champion": "Racing"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58f02"
+  },
+  "name": "Recopa Sudamericana",
+  "year": 2024,
+  "country": "South America",
+  "teams": [
+    "Fluminense",
+    "LDU Quito"
+  ],
+  "champion": "Fluminense"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58f03"
+  },
+  "name": "Supercopa de España",
+  "year": 2024,
+  "country": "Spain",
+  "teams": [
+    "Real Madrid",
+    "FC Barcelona",
+    "Atlético de Madrid",
+    "Osasuna"
+  ],
+  "champion": "Real Madrid"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58f04"
+  },
+  "name": "Community Shield",
+  "year": 2024,
+  "country": "England",
+  "teams": [
+    "Manchester City",
+    "Manchester United"
+  ],
+  "champion": "Manchester City"
+},
+{
+  "_id": {
+    "$oid": "6abeab547dbdcea637b58f05"
+  },
+  "name": "Supercopa de Italia",
+  "year": 2024,
+  "country": "Italy",
+  "teams": [
+    "Inter Milan",
+    "AC Milan",
+    "Juventus",
+    "Atalanta"
+  ],
+  "champion": "AC Milan"
+}]
